@@ -147,17 +147,17 @@ int chessBoardBuilder(char board[8][8])
 }
 
 int main(){
-char board[8][8] =
-    {
-        "rnbqkbnr",
-        "pppppppp",
-        "        ",
-        "        ",
-        "        ",
-        "        ",
-        "PPPPPPPP",
-        "RNBQKBNR"
-    };
-chessBoardBuilder(board);
+	char board[8][8] =
+        {
+            "rnbqkbnr",
+            "pppppppp",
+            "        ",
+            "        ",
+            "        ",
+            "        ",
+            "PPPPPPPP",
+            "RNBQKBNR"
+        };
+    chessBoardBuilder(board);
     
 }
